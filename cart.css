@@ -1,0 +1,100 @@
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(./Photos/ff50636e-a059-4e82-8732-4aab62ad3fff.jfif);
+}
+
+
+nav{
+    background-color: black;
+    color: white;
+    height:10vh;
+    display: flex;
+    justify-content: space-between;
+    padding: 2em;
+    align-items: center;
+    margin: 0 2em 
+}
+
+.heart{
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    border: solid white 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size:18px;
+   
+}
+.cart{
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    border: solid white 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+
+}
+
+.contactlogo{
+    color: white;
+    display: flex;
+    align-items: center;
+    gap:1.2rem
+
+}
+
+
+.mainlogo img{
+    height:50px;
+    width: 50px;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+    opacity: 0.4;
+    font-size: 25px;
+}
+
+li:hover{
+    cursor: pointer;
+    text-decoration: underline;
+    color: white;
+}
+
+.selectedcards{
+    display: flex;
+    gap: 2rem;
+    border: 1px solid white;
+    border-radius: 25px;
+    color: white;
+    width: 40%;
+    margin: 2rem;
+    align-items: center;
+    padding: 10px
+}
+
+.selectedcards img{
+    width: 100px;
+    height: 100px;
+    border-radius: 20px;
+}
+
+.back{
+    background-image: url(./Photos/e9e46d6503b1af4251a66afb588478fb.jfif);
+    height:40vh;
+    background-position: center;
+    background-size: cover; 
+    width: 95%;
+    margin:auto;
+    opacity: 1;
+
+}

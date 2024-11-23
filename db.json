@@ -1,0 +1,50 @@
+{
+
+    "categories":[
+        {
+            "id":1, "title": "vegan" , "img": "./Photos/a34a0afed94adb44b40d68910d5ddcf0.jfif", "catId":"vegan" ,"isActive": 1 
+        }
+        ,
+        {
+            "id":2, "title": "chicken" , "img": "./Photos/a34a0afed94adb44b40d68910d5ddcf0.jfif", "catId":"chicken", "isActive": 0
+        }
+        ,
+        {
+            "id":3, "title": "double" , "img": "./Photos/a34a0afed94adb44b40d68910d5ddcf0.jfif", "catId":"double" ,
+            "isActive": 0
+        }
+        ,
+        {
+            "id":4, "title": "meat" , "img": "./Photos/a34a0afed94adb44b40d68910d5ddcf0.jfif" , "catId":"meat" , 
+            "isActive": 0
+        }
+    ],
+
+    "cards":[
+      { 
+        "id":1 , "title": "PORK CHOP WITH APPLE CHUNEY", "img": "./Photos/a34a0afed94adb44b40d68910d5ddcf0.jfif" , "rating": "4.5" , "price":"150 EGP" , "pieces":"five pieces" , "spicy": "Spicey sauce" ,"catId":"vegan"
+      }
+      ,
+      { 
+        "id":2 , "title": "CHICKEN WITH APPLE CHUNEY", "img": "./Photos/a34a0afed94adb44b40d68910d5ddcf0.jfif" , "rating": "5" , "price":"180 EGP" , "pieces":"four pieces" , "spicy": "Regular" , "catId":"double"
+      }
+      ,
+      { 
+        "id":3 , "title": "VEGAN WITH APPLE CHUNEY", "img": "./Photos/a34a0afed94adb44b40d68910d5ddcf0.jfif" , "rating": "4.5" , "price":"200 EGP" , "pieces":"four pieces" , "spicy": "Regular" , "catId":"meat"
+      }
+      ,
+      { 
+        "id":4 , "title": "MEAT CHOP WITH APPLE CHUNEY", "img": "./Photos/a34a0afed94adb44b40d68910d5ddcf0.jfif" , "rating": "5" , "price":"150 EGP" , "pieces":"three pieces" , "spicy": "Spicey sauce" , "catId":"chicken"
+      }
+      ,
+      { 
+        "id":5 , "title": "MEAT CHOP WITH APPLE CHUNEY", "img": "./Photos/a34a0afed94adb44b40d68910d5ddcf0.jfif" , "rating": "5" , "price":"150 EGP" , "pieces":"three pieces" , "spicy": "Spicey sauce" , "catId":"chicken"
+      }
+      ,
+      { 
+        "id":6 , "title": "MEAT CHOP WITH APPLE CHUNEY", "img": "./Photos/a34a0afed94adb44b40d68910d5ddcf0.jfif" , "rating": "5" , "price":"150 EGP" , "pieces":"three pieces" , "spicy": "Spicey sauce" , "catId":"chicken"
+      }
+
+    ]
+}
+

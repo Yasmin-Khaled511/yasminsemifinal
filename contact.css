@@ -1,0 +1,132 @@
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(Photos/ff50636e-a059-4e82-8732-4aab62ad3fff.jfif);
+    color: antiquewhite;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; 
+    /* width: 80%;
+    margin:auto; */
+    text-align: center;
+}
+nav{
+    background-color: black;
+    color: white;
+    height:10vh;
+    display: flex;
+    justify-content: space-between;
+    padding: 2em;
+    align-items: center;
+    margin: 0 2em 
+}
+
+.heart{
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    border: solid white 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size:18px;
+   
+}
+.cart{
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    border: solid white 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+
+}
+
+.contactlogo{
+    color: white;
+    display: flex;
+    align-items: center;
+    gap:1.2rem
+
+}
+
+
+.mainlogo img{
+    height:50px;
+    width: 50px;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+    opacity: 0.4;
+    font-size: 25px;
+}
+
+li:hover{
+    cursor: pointer;
+    text-decoration: underline;
+    color: white;
+}
+
+.main{
+    background-image: url(./Photos/a34a0afed94adb44b40d68910d5ddcf0.jfif);
+    height: 84vh;
+    background-size: cover;
+    margin: 0 2em;
+}
+
+
+/* NEW CSS */
+
+h1{
+    margin: 2rem 0
+}
+
+.data {
+    display: flex;
+    gap: 4px;
+    justify-content: space-evenly;
+    font-size: 1.5rem
+}
+
+p {
+    border: solid white 2px;
+    padding: 0.5em;
+    border-radius: 15px;
+    margin: 2rem 0;
+    width: 400px
+}
+
+.inputs{
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+
+input{ 
+    width: 500px;
+    height: 250px;
+    border-radius: 4px;
+    margin: 0.2rem 4rem;
+    border: none;
+    position:relative;
+}
+
+input[type=text]::placeholder{
+    position:absolute;
+    top: 0;
+    vertical-align: 0;
+  }
+
+
+button{
+    width: 130px;
+    height: 35px;
+    margin: 0.2rem 4rem
+}

@@ -1,0 +1,325 @@
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(Photos/ff50636e-a059-4e82-8732-4aab62ad3fff.jfif);
+    color: antiquewhite;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; 
+}
+nav{
+    background-color: black;
+    color: white;
+    height:10vh;
+    display: flex;
+    justify-content: space-between;
+    padding: 2em;
+    align-items: center;
+    margin: 0 2em 
+}
+
+.heart{
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    border: solid white 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size:18px;
+   
+}
+.cart{
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    border: solid white 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+
+}
+
+.contactlogo{
+    color: white;
+    display: flex;
+    align-items: center;
+    gap:1.2rem
+
+}
+
+
+.mainlogo img{
+    height:50px;
+    width: 50px;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+    opacity: 0.4;
+    font-size: 25px;
+}
+
+li:hover{
+    cursor: pointer;
+    text-decoration: underline;
+    color: white;
+}
+
+.main{
+    background-image: url(./Photos/a34a0afed94adb44b40d68910d5ddcf0.jfif);
+    height: 84vh;
+    background-size: cover;
+    margin: 0 2em;
+}
+
+.texts{
+    text-transform: uppercase;
+    color: white;
+    font-family: comic Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 4rem;
+    padding: 4em  1.5em;
+}
+
+.texts h2{
+    font-size: 50px;
+}
+.texts p{
+    font-size: 25px;
+}
+
+.texts button{
+    background-color: red;
+    height: 40px;
+    width: 150px;
+    border-radius: 2em;
+    border:none;
+    color:white 
+}
+.texts button:hover{
+    cursor: pointer;
+}
+
+h1{
+    text-align: center;
+    padding: 3rem;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem
+}
+
+.photo{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem
+
+}
+
+.photo img{
+    width:100px;
+    height:100px;
+    border-radius: 50%;
+}
+
+
+.menu{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem;
+}
+
+.card{
+    width: 400px;
+    /* border: solid 2px blue; */
+    border-radius: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+    padding: 1rem
+}
+
+.card img{
+    width: 300px;
+    height: 200px;  
+}
+
+.circles{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    gap: 4px;
+    text-align: center;
+    justify-content: space-evenly;
+}
+
+.circles img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+   
+}
+
+
+.selected{
+    width:100px;
+    height:100px;
+    border-radius: 50%;
+    border: 4px red solid
+}
+
+.second{
+    text-align: center; 
+    color: white; 
+    padding: 2em; 
+    display: flex;
+    /* flex-direction: column; */
+    gap:1.3em;
+}
+.cards{
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    flex-wrap: nowrap; 
+    margin:auto;
+}
+
+.card{
+    height: 500px;
+    width: 300px;
+    background-color:#1D1D1D ;
+    margin-bottom: 1.2em;
+    flex-shrink: 0;
+    position: relative;
+}
+
+.heart-icon{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: red;
+    position: absolute;
+    top:2px;
+    left:10px;
+    color:white;
+    padding:3px;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+}
+#chosen{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: white;
+    position: absolute;
+    top:2px;
+    left:10px;
+    color:red;
+    padding:3px;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.card img{
+    margin: 0.2em 0;
+    width: 250px;
+    height: 180px;
+    border-radius: 1.2em;
+} 
+
+.card div.line{
+    border-bottom: solid grey;
+    width:250px;
+    height:3px;
+    text-align: center;
+    padding: 0.2em;
+    margin-left: 10%;
+    
+}
+
+.card h3{
+    font-size: 0.9em;
+    text-align: left;
+    padding: 1em;
+}
+
+.card h2 i{
+    color: yellow;
+    font-size: 1rem;}
+
+    .price {
+        color: yellow;
+    }
+
+.card h2{
+    padding: 0 2em;
+    color: rgb(158, 28, 28);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card div p{
+    text-align: left;
+    padding: 0 2em
+}
+
+.card button{
+    width: 200px;
+    height: 35px;
+    color:white;
+    background-color: #1D1D1D;
+    border: solid white;
+    border-radius: 2em;
+    margin-top: 2em;
+}
+
+.card button:hover{
+    cursor: pointer;
+}
+.card img:hover{
+    cursor: pointer;
+}
+.price{
+    display:flex;
+    justify-content: space-between;
+    align-content: center;
+}
+.two p {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.two p img{
+    width:20px;
+    height:20px;
+
+}
+
+
+
