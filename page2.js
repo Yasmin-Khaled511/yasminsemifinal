@@ -35,8 +35,7 @@ function getID(id, catId, imgID) {
 let final;
 async function getCards() {
   let final = undefined;
-  // if (localStorage.getItem("AllCards") == null) {
-  const cards = await fetch( `${PORT_NUM}/cards`);
+   const cards = await fetch( `${PORT_NUM}/cards`);   
   final = await cards.json();
   localStorage.setItem("AllCards", JSON.stringify(final));
   // } else {
