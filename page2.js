@@ -1,7 +1,8 @@
+const PORT_NUM ='https://yasminsemifinal.vercel.app'
 let selectedCatId = "";
 
 async function getCatergories() {
-  const response = await fetch("http://localhost:3000/categories");
+  const response = await fetch(`${PORT_NUM}/categories`);
   const result = await response.json();
 
   result.forEach((ele) => {
@@ -35,7 +36,7 @@ let final;
 async function getCards() {
   let final = undefined;
   // if (localStorage.getItem("AllCards") == null) {
-  const cards = await fetch("http://localhost:3000/cards");
+  const cards = await fetch( `${PORT_NUM}/cardsg`);
   final = await cards.json();
   localStorage.setItem("AllCards", JSON.stringify(final));
   // } else {
